@@ -6,9 +6,9 @@ from __future__ import division
 
 import argparse
 import os
-from others.logging import init_logger
-from train_abstractive import validate_abs, train_abs, baseline, test_abs, test_text_abs
-from train_extractive import train_ext, validate_ext, test_ext
+from src.others.logging import init_logger
+from src.train_abstractive import validate_abs, train_abs, baseline, test_abs, test_text_abs
+from src.train_extractive import train_ext, validate_ext, test_ext
 
 model_flags = ['hidden_size', 'ff_size', 'heads', 'emb_size', 'enc_layers', 'enc_hidden_size', 'enc_ff_size',
                'dec_layers', 'dec_hidden_size', 'dec_ff_size', 'encoder', 'ff_actv', 'use_interval']
