@@ -13,12 +13,12 @@ from os.path import join as pjoin
 import torch
 from multiprocessing import Pool
 
-from src.others.logging import logger
-from src.others.tokenization import BertTokenizer
+from others.logging import logger
+from others.tokenization import BertTokenizer
 from pytorch_transformers import XLNetTokenizer
 
-from src.others.utils import clean
-from src.prepro.utils import _get_word_ngrams
+from others.utils import clean
+from prepro.utils import _get_word_ngrams
 
 import xml.etree.ElementTree as ET
 

@@ -1,6 +1,6 @@
 from __future__ import division
 import torch
-from src.translate import penalties
+from translate import penalties
 
 
 class Beam(object):
